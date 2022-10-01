@@ -1,0 +1,64 @@
+.home {
+  @include flex(center, center);
+  flex-direction: column;
+  height: 100vh;
+  margin-left: -2rem;
+
+  &__avatar {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+  &__name {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+
+  &__subname {
+    font-size: 1.8rem;
+    padding-bottom: 3rem;
+  }
+
+  &__link {
+    margin-left: 3rem;
+
+    & i {
+      font-size: 1.8rem;
+      padding: 1rem;
+      border-radius: 50%;
+      width: 38px;
+      height: 38px;
+      text-align: center;
+      background-color: #dddddd;
+      transition: 0.2s;
+    }
+
+    &:first-child i {
+      &:hover {
+        background-color: #b0dfff;
+      }
+    }
+
+    &:nth-child(2) i {
+      &:hover {
+        background-color: #c1c1c1;
+      }
+    }
+
+    &:nth-child(3) i {
+      &:hover {
+        background-color: #dda6e7;
+      }
+    }
+
+    &:last-child i {
+      &:hover {
+        background-color: #ffa5c4;
+      }
+    }
+  }
+}

@@ -1,11 +1,12 @@
 import type { NextPage } from 'next'
+import Content from '../components/Content'
 import NavBar from '../components/NavBar'
 
 const Home: NextPage = () => {
   return (
     <main>
       <NavBar />
-      <h1 style={{ position: 'absolute', width: '75%', top: 0, right: 0 }}>AAAAAAAAAA</h1>
+      <Content />
     </main>
   )
 }
