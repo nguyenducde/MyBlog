@@ -1,3 +1,4 @@
+import Footer from '../Footer'
 import AboutMe from './AboutMe'
 import Education from './Education'
 import Home from './Home'
@@ -12,6 +13,7 @@ const Content: React.FC = () => {
       <Skills />
       <Projects />
       <Education />
+      <Footer />
     </div>
   )
 }
