@@ -3,5 +3,13 @@
   width: 75%;
   top: 0;
   right: 0;
-  padding-left: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+  &__title {
+    font-size: 3rem;
+    font-weight: 600;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
 }

@@ -10,7 +10,7 @@ const Home: React.FC = () => {
         className='home__avatar'
       />
       <p className='home__name'>Lương Tuyên Quang</p>
-      <p className='home__subname'>I&apos;m a Front-end Developer</p>
+      <p className='home__subname'>I&apos;m a Front-end Web Developer</p>
       <div className='home__contact'>
         {mockSocialMediaData.map((item) => {
           return (
