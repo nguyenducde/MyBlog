@@ -1,0 +1,52 @@
+.skills {
+  margin-bottom: 5rem;
+
+  &__title {
+    font-size: 1.6rem;
+    font-weight: 500;
+    width: 24rem;
+  }
+
+  &__group {
+    @include flex(center, unset);
+    margin-bottom: 2rem;
+    border-bottom: 1px solid #00000017;
+
+    &:last-of-type {
+      margin-bottom: 0;
+      border-bottom: unset;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+  }
+
+  &__item {
+    @include flex(center, space-between);
+    flex-direction: column;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 5px 20px 0 rgb(69 67 96 / 25%);
+    padding: 1.3rem 1rem;
+    border-radius: 10px;
+    width: 11rem;
+    height: 11rem;
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &-logo {
+      width: 5rem;
+    }
+
+    &-name {
+      font-size: 1.5rem;
+      font-weight: 500;
+      padding-top: 1rem;
+    }
+  }
+}

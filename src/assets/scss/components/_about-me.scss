@@ -1,0 +1,27 @@
+.about-me {
+  margin-bottom: 5rem;
+
+  &__group {
+    @include flex(center, unset);
+  }
+
+  &__avatar {
+    width: 20rem;
+    border-radius: 4px;
+  }
+
+  &__info {
+    padding: 3rem;
+    border-radius: 20px;
+    box-shadow: 0 5px 20px 0 #45436040;
+    margin-left: 3rem;
+
+    &-text {
+      font-size: 1.6rem;
+
+      &:first-child {
+        padding-bottom: 3rem;
+      }
+    }
+  }
+}
