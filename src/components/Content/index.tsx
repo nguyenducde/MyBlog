@@ -1,4 +1,5 @@
 import AboutMe from './AboutMe'
+import Education from './Education'
 import Home from './Home'
 import Projects from './Projects'
 import Skills from './Skills'
@@ -10,6 +11,7 @@ const Content: React.FC = () => {
       <AboutMe />
       <Skills />
       <Projects />
+      <Education />
     </div>
   )
 }

@@ -37,6 +37,10 @@
       text-align: center;
       background-color: #dddddd;
       transition: 0.2s;
+
+      &:hover {
+        box-shadow: 0px 0px 3px 1px #000000a1;
+      }
     }
 
     &:first-child i {
@@ -59,7 +63,7 @@
 
     &:last-child i {
       &:hover {
-        background-color: #ffa5c4;
+        background-color: #ff82ad;
       }
     }
   }

@@ -1,0 +1,26 @@
+.education {
+  &__group {
+    box-shadow: 0 5px 20px 0 rgb(69 67 96 / 25%);
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  &__time {
+    font-size: 1.4rem;
+    color: #ff4c60;
+    font-weight: 600;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+
+  &__university {
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+  }
+
+  &__major {
+    font-size: 1.7rem;
+  }
+}
