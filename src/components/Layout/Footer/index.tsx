@@ -4,7 +4,7 @@ const Footer: React.FC = () => {
   return (
     <section className='footer'>
       <div className='footer__group'>
-        <p className='footer__designed'>Developed and designed by </p>
+        <p>Developed and designed by </p>
         <Link href='https://www.facebook.com/fb.luongtuyenquang'>
           <a target='_blank' className='footer__link'>
             Lương Tuyên Quang

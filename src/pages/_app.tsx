@@ -12,9 +12,11 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <Layout>
-        <Component {...pageProps} />
-      </Layout>
+      <div data-theme='light'>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </div>
     </>
   )
 }

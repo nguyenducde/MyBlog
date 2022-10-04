@@ -1,5 +1,7 @@
 .about-me {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 5rem;
 
   &__group {
     @include flex(center, unset);
@@ -8,12 +10,15 @@
   &__avatar {
     width: 20rem;
     border-radius: 4px;
+    box-shadow: var(--box-shadow-image);
   }
 
   &__info {
     padding: 3rem;
     border-radius: 20px;
-    box-shadow: 0 5px 20px 0 #45436040;
+    color: var(--text-secondary);
+    background-color: var(--background-secondary);
+    box-shadow: 0 5px 20px 0 var(--box-shadow-primary);
     margin-left: 3rem;
 
     &-text {

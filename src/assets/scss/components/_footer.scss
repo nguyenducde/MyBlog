@@ -1,23 +1,24 @@
 .footer {
   margin-top: 5rem;
   text-align: center;
-  border-top: 1px solid #00000045;
+  border-top: 1px solid var(--color-border-footer);
   padding-top: 3rem;
 
   &__group {
     @include flex(center, center);
     font-size: 1.7rem;
     font-weight: 500;
+    color: var(--text-primary);
   }
 
   &__link {
-    color: #ff4c60;
+    color: $primary-color;
     padding-left: 0.5rem;
     transition: 0.2s;
     font-weight: 600;
 
     &:hover {
-      color: #ff001c;
+      color: var(--color-link);
       text-decoration: underline;
     }
   }
@@ -25,5 +26,6 @@
   &__copyright {
     font-size: 1.5rem;
     padding-top: 2rem;
+    color: var(--text-secondary-2);
   }
 }
