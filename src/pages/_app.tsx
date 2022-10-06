@@ -1,7 +1,10 @@
 import Head from 'next/head'
 import type { AppProps } from 'next/app'
+import { Provider } from 'react-redux'
+import { PersistGate } from 'redux-persist/integration/react'
 import '../assets/scss/index.scss'
 import Layout from '../components/Layout'
+import store, { persistor } from '../redux/store'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
@@ -12,11 +15,13 @@ function MyApp({ Component, pageProps }: AppProps) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <div data-theme='light'>
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
-      </div>
+      <Provider store={store}>
+        <PersistGate loading={null} persistor={persistor}>
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </PersistGate>
+      </Provider>
     </>
   )
 }

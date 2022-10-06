@@ -10,7 +10,7 @@
   &__item {
     display: flex;
     flex-direction: column;
-    box-shadow: 0 5px 20px 0 var(--box-shadow-primary);
+    box-shadow: var(--box-shadow-primary);
     background-color: var(--background-secondary);
     color: var(--text-primary);
     border-radius: 10px;

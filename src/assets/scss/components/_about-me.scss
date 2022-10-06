@@ -18,7 +18,7 @@
     border-radius: 20px;
     color: var(--text-secondary);
     background-color: var(--background-secondary);
-    box-shadow: 0 5px 20px 0 var(--box-shadow-primary);
+    box-shadow: var(--box-shadow-primary);
     margin-left: 3rem;
 
     &-text {

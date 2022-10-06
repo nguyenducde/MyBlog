@@ -1,6 +1,6 @@
 .education {
   &__group {
-    box-shadow: 0 5px 20px 0 var(--box-shadow-primary);
+    box-shadow: var(--box-shadow-primary);
     background-color: var(--background-secondary);
     border-radius: 20px;
     padding: 2rem;
