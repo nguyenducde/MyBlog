@@ -1,9 +1,11 @@
 import Link from 'next/link'
 import mockSocialMediaData from '../../../mock-data/mockSocialMediaData'
+import DarkMode from '../DarkMode'
 
 const Home: React.FC = () => {
   return (
     <section className='home'>
+      <DarkMode />
       <img src='/images/logo/avatar.jpg' className='home__avatar' alt='Avatar' />
       <p className='home__name'>Lương Tuyên Quang</p>
       <p className='home__subname'>I&apos;m a Front-end Web Developer</p>
