@@ -3,7 +3,7 @@ import mockProjectsData from '../../../mock-data/mockProjectsData'
 
 const Projects: React.FC = () => {
   return (
-    <section className='projects'>
+    <section className='projects' id='projects'>
       <p className='content__title'>Projects</p>
       <div className='projects__list'>
         {mockProjectsData.map((item) => {

@@ -32,13 +32,13 @@
       color: var(--text-primary);
       transition: color 0.2s;
     }
+  }
+}
 
-    &.active {
-      color: $primary-color;
+.active {
+  color: $primary-color;
 
-      & .far {
-        color: $primary-color;
-      }
-    }
+  & .far {
+    color: $primary-color;
   }
 }

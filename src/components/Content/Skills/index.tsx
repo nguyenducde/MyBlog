@@ -2,7 +2,7 @@ import * as mockSkillsData from '../../../mock-data/mockSkillsData'
 
 const Skills: React.FC = () => {
   return (
-    <section className='skills'>
+    <section className='skills' id='skills'>
       <p className='content__title'>Skills</p>
       <div className='skills__group'>
         <p className='skills__title'>Framework: </p>

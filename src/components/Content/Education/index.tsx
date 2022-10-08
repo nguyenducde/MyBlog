@@ -1,6 +1,6 @@
 const Education: React.FC = () => {
   return (
-    <section className='education'>
+    <section className='education' id='education'>
       <p className='content__title'>Education</p>
       <div className='education__group'>
         <img src='/images/logo/DLU.png' alt='Image' />

@@ -4,7 +4,7 @@ import DarkMode from '../DarkMode'
 
 const Home: React.FC = () => {
   return (
-    <section className='home'>
+    <section className='home' id='home'>
       <DarkMode />
       <img src='/images/logo/avatar.jpg' className='home__avatar' alt='Avatar' />
       <p className='home__name'>Lương Tuyên Quang</p>
