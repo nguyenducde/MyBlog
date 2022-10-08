@@ -5,7 +5,7 @@ const Skills: React.FC = () => {
     <section className='skills' id='skills'>
       <p className='content__title'>Skills</p>
       <div className='skills__group'>
-        <p className='skills__title'>Framework: </p>
+        <p className='skills__title'>Framework/Library: </p>
         <div className='skills__list'>
           {mockSkillsData.frameworkData.map((item) => {
             return (

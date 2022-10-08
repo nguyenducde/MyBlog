@@ -1,5 +1,5 @@
-import Link from 'next/link'
 import mockProjectsData from '../../../mock-data/mockProjectsData'
+import CustomButton from '../../CustomButton'
 
 const Projects: React.FC = () => {
   return (
@@ -14,12 +14,7 @@ const Projects: React.FC = () => {
                 <p className='projects__item-name'>{item.name}</p>
                 <p className='projects__item-technology'>{item.technology}</p>
               </div>
-              <Link href={item.link}>
-                <a className='btn' target='_blank'>
-                  Live view
-                  <i className='fal fa-arrow-right btn__icon'></i>
-                </a>
-              </Link>
+              <CustomButton label='Live view' href={item.link} icon='fal fa-arrow-right' />
             </div>
           )
         })}
