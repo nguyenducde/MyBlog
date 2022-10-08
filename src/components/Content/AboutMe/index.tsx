@@ -1,6 +1,6 @@
 const AboutMe: React.FC = () => {
   return (
-    <section className='about-me'>
+    <section className='about-me' id='about-me'>
       <p className='content__title'>About me</p>
       <div className='about-me__group'>
         <div style={{ position: 'relative', width: '300px' }}>

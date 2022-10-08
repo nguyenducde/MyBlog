@@ -1,21 +1,25 @@
+import { Link } from 'react-scroll'
+import mockNavBarData from '../../../mock-data/mockNavBarData'
+
 const NavBar: React.FC = () => {
   return (
     <ul className='navbar'>
-      <li className='navbar__item active'>
-        <i className='far fa-home'></i> Home
-      </li>
-      <li className='navbar__item'>
-        <i className='far fa-user-check'></i> About me
-      </li>
-      <li className='navbar__item'>
-        <i className='far fa-code'></i> Skills
-      </li>
-      <li className='navbar__item'>
-        <i className='far fa-th-list'></i> Projects
-      </li>
-      <li className='navbar__item'>
-        <i className='far fa-graduation-cap'></i> Education
-      </li>
+      {mockNavBarData.map((item) => {
+        return (
+          <Link
+            activeClass='active'
+            className='navbar__item'
+            to={item.to}
+            spy={true}
+            smooth={true}
+            offset={0}
+            duration={500}
+            key={item.id}
+          >
+            <i className={item.icon}></i> {item.name}
+          </Link>
+        )
+      })}
     </ul>
   )
 }
