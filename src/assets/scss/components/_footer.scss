@@ -9,6 +9,10 @@
     font-size: 1.7rem;
     font-weight: 500;
     color: var(--text-primary);
+
+    @include max-767() {
+      flex-direction: column;
+    }
   }
 
   &__link {
@@ -16,6 +20,10 @@
     padding-left: 0.5rem;
     transition: 0.2s;
     font-weight: 600;
+
+    @include max-767() {
+      padding-top: 1rem;
+    }
 
     &:hover {
       color: var(--color-link);
