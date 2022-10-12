@@ -30,6 +30,10 @@ body {
 
   @include max-1023() {
     width: 100%;
+    padding: 0 2.5rem 3rem;
+  }
+
+  @include max-767() {
     padding: 0 1.5rem 3rem;
   }
 }

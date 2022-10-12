@@ -3,9 +3,12 @@
   border-bottom: 1px solid var(--line);
   padding-bottom: 5rem;
 
-  @include max-767() {
+  @include max-1023() {
     padding-top: 4rem;
     margin-bottom: unset;
+  }
+
+  @include max-767() {
     padding-bottom: unset;
   }
 

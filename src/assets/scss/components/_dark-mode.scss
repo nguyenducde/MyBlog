@@ -9,7 +9,11 @@
     z-index: 1;
     top: calc($navbar-mobile - ($navbar-mobile / 2));
     transform: translateY(-50%);
-    right: 1.5rem;
+    right: $padding-tablet;
+  }
+
+  @include max-767() {
+    right: $padding-mobile;
   }
 
   &__input {
