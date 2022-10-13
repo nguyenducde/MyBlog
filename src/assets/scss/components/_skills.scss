@@ -3,17 +3,35 @@
   border-bottom: 1px solid var(--line);
   padding-bottom: 5rem;
 
+  @include max-1023() {
+    padding-top: 4rem;
+    margin-bottom: unset;
+  }
+
+  @include max-767() {
+    padding-bottom: unset;
+  }
+
   &__title {
     font-size: 1.6rem;
     font-weight: 500;
     width: 24rem;
     color: var(--text-secondary-2);
+
+    @include max-767() {
+      padding-bottom: 2rem;
+    }
   }
 
   &__group {
     @include flex(center, unset);
     margin-bottom: 2rem;
     border-bottom: 1px solid var(--color-border-bottom);
+
+    @include max-767() {
+      @include flex(flex-start, unset);
+      flex-direction: column;
+    }
 
     &:last-of-type {
       margin-bottom: 0;
@@ -39,12 +57,22 @@
     width: 11rem;
     height: 11rem;
 
+    @include max-767() {
+      margin-right: 2rem;
+      margin-bottom: 3rem;
+      width: 10rem;
+    }
+
     &:last-child {
       margin-right: 0;
     }
 
     &-logo {
       width: 5rem;
+
+      @include max-767() {
+        width: 4.3rem;
+      }
     }
 
     &-name {
@@ -52,6 +80,10 @@
       font-weight: 500;
       padding-top: 1rem;
       color: var(--text-secondary);
+
+      @include max-767() {
+        font-size: 1.4rem;
+      }
     }
   }
 }

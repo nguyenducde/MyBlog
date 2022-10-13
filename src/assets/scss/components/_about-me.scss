@@ -3,14 +3,35 @@
   border-bottom: 1px solid var(--line);
   padding-bottom: 5rem;
 
+  @include max-1023() {
+    padding-top: 4rem;
+  }
+
+  @include max-767() {
+    margin-bottom: unset;
+  }
+
   &__group {
     @include flex(center, unset);
+
+    @include max-767() {
+      flex-direction: column;
+    }
   }
 
   &__avatar {
-    width: 20rem;
-    border-radius: 4px;
-    box-shadow: var(--box-shadow-image);
+    position: relative;
+    width: 30rem;
+
+    @include max-767() {
+      text-align: center;
+    }
+
+    & img {
+      width: 20rem;
+      border-radius: 4px;
+      box-shadow: var(--box-shadow-image);
+    }
   }
 
   &__info {
@@ -20,6 +41,13 @@
     background-color: var(--background-secondary);
     box-shadow: var(--box-shadow-primary);
     margin-left: 3rem;
+
+    @include max-767() {
+      margin-left: unset;
+      margin-top: 2rem;
+      padding: 2rem;
+      text-align: justify;
+    }
 
     &-text {
       font-size: 1.6rem;

@@ -26,6 +26,20 @@ body {
   right: 0;
   padding: 0 3rem 3rem;
   background-color: var(--background-primary);
+  overflow: hidden;
+
+  @include min-1700() {
+    width: 80%;
+  }
+
+  @include max-1023() {
+    width: 100%;
+    padding: 0 2.5rem 3rem;
+  }
+
+  @include max-767() {
+    padding: 0 1.5rem 3rem;
+  }
 }
 
 ul {

@@ -14,8 +14,8 @@ const AboutMe: React.FC = () => {
     <section className='about-me' id='about-me'>
       <p className='content__title'>About me</p>
       <div className='about-me__group'>
-        <div style={{ position: 'relative', width: '300px' }}>
-          <img src='/images/logo/avatar.jpg' alt='Avatar' className='about-me__avatar' />
+        <div className='about-me__avatar'>
+          <img src='/images/logo/avatar.jpg' alt='Avatar' />
         </div>
         <div className='about-me__info'>
           <p className='about-me__info-text'>

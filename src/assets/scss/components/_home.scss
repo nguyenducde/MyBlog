@@ -21,6 +21,11 @@
     padding-top: 2rem;
     padding-bottom: 1rem;
     color: var(--text-primary);
+
+    @include max-767() {
+      font-size: 2.7rem;
+      padding-top: 4rem;
+    }
   }
 
   &__subname {
@@ -31,6 +36,10 @@
 
   &__link {
     margin-left: 3rem;
+
+    &:first-child {
+      margin-left: unset;
+    }
 
     & i {
       font-size: 1.8rem;
@@ -43,32 +52,58 @@
       transition: 0.2s;
       color: black;
 
+      @include max-767() {
+        width: 40px;
+        height: 40px;
+        font-size: 2rem;
+      }
+
       &:hover {
         box-shadow: 0px 0px 3px 1px #0000003d;
+
+        @include max-1023() {
+          box-shadow: unset;
+        }
       }
     }
 
     &:first-child i {
       &:hover {
         background-color: #b0dfff;
+
+        @include max-1023() {
+          background-color: #dddddd;
+        }
       }
     }
 
     &:nth-child(2) i {
       &:hover {
         background-color: #c1c1c1;
+
+        @include max-1023() {
+          background-color: #dddddd;
+        }
       }
     }
 
     &:nth-child(3) i {
       &:hover {
         background-color: #dda6e7;
+
+        @include max-1023() {
+          background-color: #dddddd;
+        }
       }
     }
 
     &:last-child i {
       &:hover {
         background-color: #ff82ad;
+
+        @include max-1023() {
+          background-color: #dddddd;
+        }
       }
     }
   }
