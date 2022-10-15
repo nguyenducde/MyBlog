@@ -15,9 +15,14 @@ const AboutMe: React.FC = () => {
       <p className='content__title'>About me</p>
       <div className='about-me__group'>
         <div className='about-me__avatar'>
-          <img src='/images/logo/avatar.jpg' alt='Avatar' />
+          <img
+            src='/images/logo/avatar.jpg'
+            alt='Avatar'
+            data-aos='fade-right'
+            data-aos-duration='800'
+          />
         </div>
-        <div className='about-me__info'>
+        <div className='about-me__info' data-aos='fade-up'>
           <p className='about-me__info-text'>
             My name is Quang <span>({age} years old)</span>. I&apos;m a Front-end web developer. I
             love to learn Front-end, technologies and beautiful UX/UI design. Apply learned

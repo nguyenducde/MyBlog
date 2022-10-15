@@ -34,6 +34,7 @@
   }
 
   &__item {
+    @include flex(center, unset);
     margin-bottom: 3rem;
     cursor: pointer;
     transition: color 0.2s;
@@ -52,7 +53,7 @@
     }
 
     & .far {
-      width: 3.5rem;
+      width: 4rem;
       color: var(--text-primary);
       transition: color 0.2s;
     }
