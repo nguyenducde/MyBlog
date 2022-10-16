@@ -1,13 +1,15 @@
 import Link from 'next/link'
 import mockSocialMediaData from '../../../mock-data/mockSocialMediaData'
 import DarkMode from '../../DarkMode'
+import EffectParticles from '../../Particles'
 
 const Home: React.FC = () => {
   return (
     <section className='home' id='home'>
+      <EffectParticles />
       <DarkMode />
       <img src='/images/logo/avatar.jpg' className='home__avatar' alt='Avatar' data-aos='zoom-in' />
-      <p className='home__name' data-aos='fade-up' data-aos-anchor-placement='top-bottom'>
+      <p className='home__name' data-aos='fade-up'>
         Lương Tuyên Quang
       </p>
       <p className='home__subname' data-aos='fade-down'>
