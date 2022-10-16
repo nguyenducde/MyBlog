@@ -5,12 +5,19 @@ const CustomButton: React.FC<ButtonProps> = ({
   label,
   href,
   icon,
+  className,
+  target,
   data_aos,
   data_aos_duration,
 }) => {
   return (
     <Link href={href}>
-      <a className='btn' target='_blank' data-aos={data_aos} data-aos-duration={data_aos_duration}>
+      <a
+        className={`btn ${className}`}
+        target={target}
+        data-aos={data_aos}
+        data-aos-duration={data_aos_duration}
+      >
         {label}
         {icon ? <i className={`${icon} btn__icon`}></i> : ''}
       </a>

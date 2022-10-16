@@ -1,0 +1,73 @@
+.not-found {
+  position: fixed;
+  inset: 0;
+  background-color: white;
+  z-index: 1;
+
+  &__group {
+    @include flex(center, center);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+    @include max-1023() {
+      flex-direction: column-reverse;
+      padding: 0 3rem;
+    }
+  }
+
+  &__content {
+    margin-right: 8rem;
+
+    @include max-1023() {
+      margin-right: unset;
+      text-align: center;
+      padding-top: 4rem;
+    }
+  }
+
+  &__title {
+    font-size: 8rem;
+    letter-spacing: 0.2rem;
+    background-clip: text;
+    background: -webkit-linear-gradient(#b0b0b0, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    @include max-1023() {
+      font-size: 5rem;
+    }
+  }
+
+  &__description {
+    font-size: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    @include max-1023() {
+      font-size: 1.8rem;
+    }
+  }
+
+  &__image {
+    width: 40rem;
+
+    @include max-1023() {
+      width: 35rem;
+    }
+
+    @include max-767() {
+      width: 30rem;
+    }
+  }
+
+  &__btn {
+    margin: unset;
+
+    @include max-1023() {
+      margin: 0 auto;
+    }
+  }
+}
