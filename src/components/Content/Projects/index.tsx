@@ -32,6 +32,7 @@ const Projects: React.FC = () => {
                 label='Live view'
                 href={item.link}
                 icon='fal fa-arrow-right'
+                target='_blank'
                 data_aos='zoom-out-down'
                 data_aos_duration='800'
               />
