@@ -55,7 +55,10 @@ const NavBar: React.FC = () => {
               duration={500}
               key={item.id}
             >
-              <i className={item.icon}></i> {item.name}
+              <i className={item.icon} data-aos='fade-down-right' data-aos-duration='800'></i>
+              <p data-aos='fade-down-left' data-aos-duration='800'>
+                {item.name}
+              </p>
             </Link>
           )
         })}

@@ -6,7 +6,13 @@ const Footer: React.FC = () => {
       <div className='footer__group'>
         <p>Developed and designed by </p>
         <Link href='https://www.facebook.com/fb.luongtuyenquang'>
-          <a target='_blank' className='footer__link'>
+          <a
+            target='_blank'
+            className='footer__link'
+            data-aos='zoom-in-right'
+            data-aos-duration='700'
+            data-aos-offset='0'
+          >
             Lương Tuyên Quang
           </a>
         </Link>
