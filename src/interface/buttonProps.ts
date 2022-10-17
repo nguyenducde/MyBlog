@@ -4,8 +4,6 @@ interface ButtonProps {
   icon?: string
   className?: string
   target?: string
-  data_aos?: string
-  data_aos_duration?: string
 }
 
 export default ButtonProps

@@ -1,6 +1,6 @@
 Welcome to Blog of me
 
-Link blog: [Lương Tuyên Quang - Blog](https://nextjs.org/)
+Link blog: [Lương Tuyên Quang - Blog](https://luongtuyenquang-blog.vercel.app/)
 
 Designer: [Lương Tuyên Quang](https://www.facebook.com/fb.luongtuyenquang)
 
