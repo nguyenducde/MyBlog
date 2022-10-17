@@ -33,8 +33,6 @@ const Projects: React.FC = () => {
                 href={item.link}
                 icon='fal fa-arrow-right'
                 target='_blank'
-                data_aos='zoom-out-down'
-                data_aos_duration='800'
               />
             </div>
           )
