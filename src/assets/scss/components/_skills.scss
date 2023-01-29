@@ -80,6 +80,11 @@
       font-weight: 500;
       padding-top: 1rem;
       color: var(--text-secondary);
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      overflow: hidden;
+      width: 100%;
+      text-align: center;
 
       @include max-767() {
         font-size: 1.4rem;

@@ -17,6 +17,12 @@ export const frameworkData = [
     link: '/images/skills/redux.png',
     animation: 'fade-up',
   },
+  {
+    id: 4,
+    name: 'Vue',
+    link: '/images/skills/vue.png',
+    animation: 'fade-down',
+  },
 ]
 
 export const programmingLanguageData = [
@@ -64,6 +70,24 @@ export const webDesignData = [
     name: 'MUI',
     link: '/images/skills/mui.png',
     animation: 'fade-up',
+  },
+  {
+    id: 6,
+    name: 'Tailwind',
+    link: '/images/skills/tailwind.png',
+    animation: 'fade-down',
+  },
+  {
+    id: 7,
+    name: 'Styled Components',
+    link: '/images/skills/styled-components.png',
+    animation: 'fade-up',
+  },
+  {
+    id: 8,
+    name: 'Ant Design',
+    link: '/images/skills/ant-design.png',
+    animation: 'fade-down',
   },
 ]
 
