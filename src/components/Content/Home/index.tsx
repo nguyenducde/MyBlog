@@ -10,7 +10,7 @@ const Home: React.FC = () => {
       <DarkMode />
       <img src='/images/logo/avatar.jpg' className='home__avatar' alt='Avatar' data-aos='zoom-in' />
       <p className='home__name' data-aos='fade-up'>
-        Lương Tuyên Quang
+        Nguyễn Đức Đề
       </p>
       <p className='home__subname' data-aos='fade-down'>
         I&apos;m a Front-end Web Developer

@@ -20,8 +20,8 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Lương Tuyên Quang - Blog</title>
-        <meta name='description' content='Lương Tuyên Quang - Blog' />
+        <title>Nguyễn Đức Đề - Blog</title>
+        <meta name='description' content='Nguyễn Đức Đề - Blog' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 

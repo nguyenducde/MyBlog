@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
             data-aos-duration='700'
             data-aos-offset='0'
           >
-            Lương Tuyên Quang
+            Nguyễn Đức Đề
           </a>
         </Link>
       </div>
