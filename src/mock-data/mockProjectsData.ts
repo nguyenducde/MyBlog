@@ -1,11 +1,5 @@
 const mockProjectsData = [
-  {
-    id: 1,
-    name: 'Netflix',
-    image: '/images/projects/netflix.png',
-    link: 'https://movie-personal.vercel.app/',
-    technology: 'HTML5, SCSS, Typescript, NextJS, Redux',
-  },
+
   {
     id: 2,
     name: 'Shop Yolo',
