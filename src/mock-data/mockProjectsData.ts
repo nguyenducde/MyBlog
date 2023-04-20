@@ -5,7 +5,7 @@ const mockProjectsData = [
     name: 'Shop Yolo',
     image: '/images/projects/shop-yolo.png',
     link: 'https://shop-yolo.netlify.app/',
-    technology: 'HTML5, SCSS, JavaScript, ReactJS, Redux ',
+    technology: 'HTML5, SCSS, JavaScript, ReactJS, Redux, ExpressJs ',
   },
   {
     id: 1,
