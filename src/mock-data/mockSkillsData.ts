@@ -23,6 +23,12 @@ export const frameworkData = [
     link: '/images/skills/vue.png',
     animation: 'fade-down',
   },
+  {
+    id: 5,
+    name: 'ExpressJs',
+    link: '/images/skills/express.png',
+    animation: 'fade-down',
+  },
 ]
 
 export const programmingLanguageData = [
