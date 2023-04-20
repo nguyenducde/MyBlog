@@ -13,7 +13,7 @@ const Home: React.FC = () => {
         Nguyễn Đức Đề
       </p>
       <p className='home__subname' data-aos='fade-down'>
-        I&apos;m a Front-end Web Developer
+        I&apos;m a FullStack Web Developer
       </p>
       <div className='home__contact'>
         {mockSocialMediaData.map((item) => {
