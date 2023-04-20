@@ -24,8 +24,8 @@ const AboutMe: React.FC = () => {
         </div>
         <div className='about-me__info' data-aos='fade-up'>
           <p className='about-me__info-text'>
-            My name is De <span>({age} years old)</span>. I&apos;m a Front-end web developer. I
-            love to learn Front-end, technologies and beautiful UX/UI design. Apply learned
+            My name is De <span>({age} years old)</span>. I&apos;m a FullStack web developer. I
+            love to learn FullStack, technologies and beautiful UX/UI design. Apply learned
             knowledge to design and build web applications. I look forward to learning new skills
             and challenging myself whenever possible.
           </p>
