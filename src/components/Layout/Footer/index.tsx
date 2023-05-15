@@ -5,7 +5,7 @@ const Footer: React.FC = () => {
     <section className='footer'>
       <div className='footer__group'>
         <p>Developed and designed by </p>
-        <Link href='https://www.facebook.com/fb.luongtuyenquang'>
+        <Link href='https://www.facebook.com/nguyenducde.tt'>
           <a
             target='_blank'
             className='footer__link'
